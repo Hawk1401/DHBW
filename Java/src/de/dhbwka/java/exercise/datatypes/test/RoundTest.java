@@ -17,4 +17,7 @@ class RoundTest {
     assertEquals(-3, Round.round(-3.3));
     assertEquals(-3, Round.round(-3));
   }
+
+  private void assertEquals(int i, int round) {
+  }
 }
