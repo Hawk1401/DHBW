@@ -1,12 +1,19 @@
 package de.dhbwka.java.exercise.operators;
+/*
+Berechnen Sie in einem Java-Programm Easter den Ostertermin für das Jahr „jahr“ nach der von
+Gauß im Jahr 1816 veröffentlichten Formel (hier für den gregorianischen Kalender).
+Der „32. März“ entspricht also dem 1. April usw.
+Lassen Sie die Jahreszahl vom Nutzer eingeben und geben Sie den passenden Ostertermin aus!
 
+ */
 public class Easter {
 
   public static void main(String[] args) {
     java.util.Scanner scan = new java.util.Scanner(System.in);
     System.out.print("Please enter an integer number: ");
     int i = scan.nextInt();
-    GetEaster(i);
+    scan.close();
+    System.out.print(GetEaster(i));
   }
 
   public static int GetEaster(int year) {
@@ -26,8 +33,6 @@ public class Easter {
     if (easter > 31) {
       easter -= 31;
     }
-    System.out.print(easter);
-
     return easter;
   }
 }

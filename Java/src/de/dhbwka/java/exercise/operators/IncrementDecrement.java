@@ -1,4 +1,10 @@
 package de.dhbwka.java.exercise.operators;
+/*
+Aufgabenstellung:
+Was gibt das folgende Programm IncrementDecrement aus?
+Lösen Sie die Aufgabe zunächst „auf Papier“, kontrollieren Sie das Ergebnis dann am Rechner!
+
+ */
 
 public class IncrementDecrement {
 

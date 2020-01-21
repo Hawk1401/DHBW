@@ -1,4 +1,10 @@
 package de.dhbwka.java.exercise.datatypes;
+/*
+Das „Casten“ (dt. die Typumwandlung) von Gleitkommazahlen in ganze Zahlen bedeutet im
+Allgemeinen einen Informationsverlust, denn die Nachkommastellen werden abgeschnitten, z.B.
+erfolgt im folgenden Programmstück die Ausgabe von 3 bzw. 2 für die ganzzahligen Varianten von Pi
+bzw. e
+ */
 
 public class Round {
 
