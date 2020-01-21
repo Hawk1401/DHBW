@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0156dfe-133c-4047-ab98-1d5a6609a042" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/de/dhbwka/java/exercise/arrays/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/META-INF/Java.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/dhbwka/java/exercise/datatypes/test/RoundTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/dhbwka/java/exercise/datatypes/test/RoundTest.java" afterDir="false" />
-    </list>
+
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +44,6 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -75,7 +66,6 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QuickSort">
     <configuration name="Bubblesort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.dhbwka.java.exercise.arrays.Bubblesort" />
       <module name="Java" />
@@ -115,8 +105,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Norm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.dhbwka.java.exercise.arrays.Norm" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -127,9 +115,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.dhbwka.java.exercise.arrays.QuickSort" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -164,8 +149,12 @@
       <workItem from="1578559600231" duration="7683000" />
       <workItem from="1579248045816" duration="10565000" />
       <workItem from="1579592402848" duration="23405000" />
+<<<<<<< HEAD
       <workItem from="1579632121209" duration="28000" />
       <workItem from="1579632610777" duration="1684000" />
+=======
+      <workItem from="1579631415624" duration="498000" />
+>>>>>>> 4cffd4d119e5778b72d93c6190ed8e3bb2670edb
     </task>
     <servers />
   </component>

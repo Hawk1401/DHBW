@@ -53,6 +53,16 @@ local.properties
 .factorypath
 
 ##############################
+## IntelliJ
+##############################
+out/
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+
+##############################
 ## NetBeans
 ##############################
 nbproject/private/
