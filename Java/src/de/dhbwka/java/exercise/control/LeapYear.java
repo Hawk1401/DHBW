@@ -26,11 +26,7 @@ public class LeapYear {
   public static boolean IsALeapYear(int year){
     if(year % 4 == 0){
       if (year % 100 ==0){
-        if (year % 400 == 0 ){
-          return true;
-        }else {
-          return false;
-        }
+        return year % 400 == 0;
       }
       return true;
     }
