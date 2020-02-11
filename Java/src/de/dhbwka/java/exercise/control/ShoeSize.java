@@ -22,9 +22,9 @@ public class ShoeSize {
     for (int i = 0; i<20; i++){
       String outPut = "";
       double Mincm = (double)(Size + i -1 ) / 1.5;
-      double Maxcm = (double)(Size + i -1 ) / 1.5;
+      double Maxcm = (double)(Size + i ) / 1.5;
       outPut = outPut + String.format("%1$,.2f - ", Mincm);
-      outPut = outPut + String.format("%1$,.2f | ", Mincm);
+      outPut = outPut + String.format("%1$,.2f | ", Maxcm);
       outPut = outPut + String.format("%4s | ", Integer.toString(Size + i));
     System.out.println(outPut);
 

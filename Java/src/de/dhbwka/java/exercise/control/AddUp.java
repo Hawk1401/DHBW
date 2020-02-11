@@ -13,33 +13,38 @@ Realisieren Sie AddUp einmal mit einer while-Schleife und einmal mit einer do-wh
 
 public class AddUp {
 
-  public static void main(String[] args) {
-    AddUPWithDoWhile();
-  }
-  public static void AddUPWithWhile() {
-      java.util.Scanner scan = new java.util.Scanner(System.in);
-      System.out.print("Please enter an a number: ");
-      double a = scan.nextDouble();
-      double summ = 0;
-      while (a >= 0) {
-        summ += a;
+    public static void main(String[] args) {
+        AddUPWithDoWhile();
+    }
+
+    public static void AddUPWithWhile() {
+        java.util.Scanner scan = new java.util.Scanner(System.in);
         System.out.print("Please enter an a number: ");
-        a = scan.nextDouble();
-      }
-    System.out.println(summ);
-    scan.close();
-  }
-  public static void AddUPWithDoWhile() {
-      java.util.Scanner scan = new java.util.Scanner(System.in);
-      System.out.print("Please enter an a number: ");
-      double a = scan.nextDouble();
-      double summ = 0;
-      do{
-        summ += a;
+        double a = scan.nextDouble();
+        double summ = 0;
+        while (a >= 0) {
+            summ += a;
+            System.out.print("Please enter an a number: ");
+            a = scan.nextDouble();
+        }
+        System.out.println(summ);
+        scan.close();
+    }
+
+    public static void AddUPWithDoWhile() {
+        java.util.Scanner scan = new java.util.Scanner(System.in);
         System.out.print("Please enter an a number: ");
-        a = scan.nextDouble();
-      }while (a >= 0);
-    System.out.println(summ);
-    scan.close();
-  }
+        double a = scan.nextDouble();
+        double summ = 0;
+        do {
+            a = scan.nextDouble();
+            if (a >= 0) {
+                summ += a;
+                System.out.print("Please enter an a number: ");
+            }
+
+        } while (a >= 0);
+        System.out.println(summ);
+        scan.close();
+    }
 }
