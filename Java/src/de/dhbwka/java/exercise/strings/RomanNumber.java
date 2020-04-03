@@ -11,9 +11,11 @@ X = 10
 V = 5
 I = 1
  */
+
 public class RomanNumber {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        System.out.println("Pleas Enter Your Roman Number: ");
         String input = scan.next();
         int sum = 0;
         for (int i = 0; i < input.length() - 1; i++) {
